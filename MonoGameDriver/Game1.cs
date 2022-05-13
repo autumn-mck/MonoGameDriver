@@ -29,7 +29,7 @@ namespace MonoGameDriver
 		private int Generation
 		{
 			get { return generation; }
-			set { generation = value;debugInfo.Generation = generation; }
+			set { generation = value; debugInfo.Generation = generation; }
 		}
 
 		private float nextGenTime;
@@ -92,7 +92,7 @@ namespace MonoGameDriver
 			Rendering.DebugTextFont = Content.Load<SpriteFont>("DebugText");
 			Rendering.CarTexture = Content.Load<Texture2D>("RedCar");
 			Rendering.TerrainTexture = Content.Load<Texture2D>("terrain");
-			
+
 			Rendering.UIRect = new Texture2D(_graphics.GraphicsDevice, 1, 1);
 			Rendering.UIRect.SetData(new byte[] { 50, 255, 50, 0 });
 
