@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGameDriver", "MonoGameDriver\MonoGameDriver.csproj", "{CEDEF87E-68A0-490B-B89F-2C20A26421AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEDEF87E-68A0-490B-B89F-2C20A26421AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDEF87E-68A0-490B-B89F-2C20A26421AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDEF87E-68A0-490B-B89F-2C20A26421AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDEF87E-68A0-490B-B89F-2C20A26421AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AC6446A-3E3D-4008-A008-83EB565BA107}
+	EndGlobalSection
+EndGlobal
